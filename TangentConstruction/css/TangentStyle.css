@@ -24,6 +24,11 @@ a:visited
   overflow: auto;
 }
 
+footer
+{
+  color: green;
+  <p> apples are good </p>
+}
 
 body
 {

@@ -54,12 +54,24 @@ body
   color: blue !important;
 }
 
+.dropdown-menu {
+  color: green !important;
+  background-color: #344 !important;
+}
+
+.dropdown-menu a{
+  color: green !important;
+  background-color: #344 !important;
+}
+
+.btn.open.active {
+  color: blue !important;
+}
+
 .navbar {
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 .navbar a {
   float: left;

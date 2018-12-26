@@ -24,11 +24,10 @@ a:visited
   overflow: auto;
 }
 
-footer
+/* footer
 {
   color: green;
-  <p> apples are good </p>
-}
+} */
 
 body
 {
@@ -37,10 +36,14 @@ body
 	/* background-color: rgb(120, 120, 120) !important; */
   	/* background-color: rgb(255, 0, 0) !important; */
     background: linear-gradient(to right,
-      rgb(130, 0, 0) 12%,
+      rgb(130, 0, 0) 11.5%,
+      #333 11.5%,
+      /* #333 12%, */
       grey 12%,
-      grey 88%,
-      rgb(130, 0, 0) 88%,
+      grey 88.50%,
+      #333 89%,
+      #333 89%,
+      rgb(130, 0, 0) 89.01%,
       rgb(130, 0, 0) 100%
       );
 }

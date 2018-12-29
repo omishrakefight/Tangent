@@ -2,7 +2,6 @@
 $(document).ready(function () {
 
 
-  $('.FooterInfo').append('p').text('I add here')
   //This is my footer
   $('Footer').append('p').html(
     '<div class="col-md-12">' +

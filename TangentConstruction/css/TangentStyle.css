@@ -7,6 +7,10 @@ h1 {
 hr
 {
 	border-top: 5px double;
+  border-color: #333 !important;
+  background-color: #333 !important;
+  color: #333 !important;
+  border: none;
 }
 
 a:visited
@@ -29,6 +33,7 @@ a:visited
   color: green;
 } */
 
+
 body
 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +43,6 @@ body
     background: linear-gradient(to right,
       rgb(130, 0, 0) 11.5%,
       #333 11.5%,
-      /* #333 12%, */
       grey 12%,
       grey 88.50%,
       #333 89%,
@@ -48,10 +52,25 @@ body
       );
 }
 
+.center {
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
+  
+}
+
             /* Dropdown button, hover button, list color, list hover */
 .btn {
   color: white;
-  background: #333;
+  /* background: #333; */
+  background-color: transparent
+  /* transition-property: none; */
+  /* opacity:0; */
+}
+
+.btn:active {
+  color: rgb(181, 0, 0) !important;
+
 }
 
 .btn:hover {
@@ -59,12 +78,18 @@ body
 }
 
 .dropdown-menu {
+  color: white !important;
   background-color: #344 !important;
+  /* transition-property: none; */
+  opacity: 1;
 }
+
 
 .dropdown-menu a{
   color: white !important;
   background-color: #344 !important;
+  opacity: 1;
+
 }
 
 .dropdown-menu a:hover{

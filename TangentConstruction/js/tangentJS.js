@@ -9,7 +9,8 @@ $(document).ready(function () {
     '<hr style="border-top: 1px solid #333">' +
     '<p style="text-align: center"> Tangent Construction Services, LLC  &nbsp &nbsp &nbsp | ' +
     ' &nbsp &nbsp &nbsp (813) 628-4411  &nbsp &nbsp &nbsp |' +
-    ' &nbsp &nbsp &nbsp info@tangentconstructionservices.com ' +
+    ' &nbsp &nbsp &nbsp info@tangentconstructionservices.com   &nbsp &nbsp &nbsp | ' +
+    ' &nbsp &nbsp &nbsp CBC1253115 ' +
     '<br>' +
     '<br>' +
     '</p>' +

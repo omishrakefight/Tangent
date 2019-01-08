@@ -28,10 +28,6 @@ a:visited
   overflow: auto;
 }
 
-/* footer
-{
-  color: green;
-} */
 
 
 body
@@ -56,7 +52,7 @@ body
   margin-left: auto;
   margin-right:auto;
   display: block;
-  
+
 }
 
             /* Dropdown button, hover button, list color, list hover */
@@ -64,13 +60,12 @@ body
   color: white;
   /* background: #333; */
   background-color: transparent
-  /* transition-property: none; */
+  /* transition-property: none !important; */
   /* opacity:0; */
 }
 
 .btn:active {
   color: rgb(181, 0, 0) !important;
-
 }
 
 .btn:hover {
@@ -80,7 +75,7 @@ body
 .dropdown-menu {
   color: white !important;
   background-color: #344 !important;
-  /* transition-property: none; */
+  transition-property: none !important;
   opacity: 1;
 }
 
